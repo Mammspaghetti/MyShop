@@ -31,12 +31,6 @@ export function ProductCard({
           className="transition-transform duration-500 group-hover:scale-105"
         />
       </button>
-      <button
-        type="button"
-        onClick={onToggleFavorite}
-        aria-label="Ajouter aux favoris"
-        className="absolute right-3 top-3 hidden"
-      />
       <div className="flex flex-1 flex-col gap-3 p-4">
         <div className="flex items-start justify-between gap-2">
           <span className="rounded-full bg-secondary px-2.5 py-1 text-[11px] font-medium uppercase tracking-wide text-secondary-foreground">
